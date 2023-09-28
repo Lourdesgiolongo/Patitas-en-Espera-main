@@ -1,0 +1,436 @@
+body{
+    background-color: #9bb6e3;
+    font-family: "Inter";
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 150px;
+    top:0px;
+    color: #013071;
+    font-style:inherit;
+    position:relative;
+    
+}
+
+
+
+
+ .filter-button {
+    
+    position: fixed;
+    margin-left: auto;
+    background-color: #013071;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; 
+    line-height: 50px;
+    display: flex; 
+    
+}
+
+ .filter-button i {
+    font-size: 50px;
+    vertical-align:middle;
+    margin-right: 6px;
+}
+
+#carrusel{
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+.carousel-item img{
+    max-height: 470px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-control-prev{
+    font-size: 2em;
+    padding-left: auto;
+    padding-right: 130px;
+}
+
+.carousel-control-next{
+    font-size: 2em;
+    padding-right: auto;
+    padding-left: 130px;
+}
+
+
+.imagen-texto{
+    background-color: rgba(102, 178, 240, 0.984);
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.imagen-texto h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.imagen-texto p {
+    margin: 0;
+    font-size: 16px;
+}
+ 
+
+
+#calendario {
+    border-radius: 10px;
+    background-color: #97b2df;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/*eventos proximos y fechas de eventos proximos*/
+#eventos {    
+    width: 80%;
+    margin: 20px auto;
+    font-size: larger;
+    color: #013071;
+}
+
+
+
+#lista-eventos {
+    list-style:decimal;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+
+
+#lista-eventos li{
+    margin-bottom: 10px;
+}
+
+#calendario .fc-day-today {
+    background-color: rgb(221, 34, 34);
+}
+
+#calendario .fc-day{
+    color: #013071;
+}
+
+#calendario .fc-event {
+    background-color: rgb(221, 34, 34);
+    color: #9bb6e3;
+}
+
+#calendario .fc-today-button{
+    background-color: #9bb6e3;
+    color: #013071;
+}
+
+
+
+
+/*/*
+ ----------------------------------    Login Estilos    ----------------------------------------------
+*/
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    background: #21295c;
+    color: #fff;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+
+
+
+.inputLogin {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #2a4494;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+/*icono*/
+.inputLogin svg {
+    margin: 10px 5px 10px 15px;
+}
+
+.inputLogin input {
+    position: absolute;
+    margin-top: 7px;
+    background: #21295c;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    outline: 0;
+}
+
+/*boton registrarse*/
+form a {
+    text-decoration: none;
+    color: #2a4494;
+    margin: 0 0 20px 10px;
+}
+
+/*boton iniciar sesion*/
+form button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: #2a4494;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/*no tienes cuenta*/
+form p {
+    margin: 150px 0 20px 90px;
+}
+
+
+form div.usuariocontraseña {
+    display: block;
+    margin-top: -50px;
+}
+
+form div.registrarse{
+    margin: 60px 53px;
+    display: flex;
+    text-align: center;
+    padding: 90px;
+}
+
+form div a{
+    margin-top: 20px;
+}
+
+form div p {
+    margin: 20px  0 25px;
+}
+
+
+
+/*Registro*/
+
+
+
+
+
+
+/* boton registrarse */
+form button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: #2a4494;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* ya tienes cuenta */
+.cuenta{
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+}
+
+/* boton iniciar sesion */
+.inicio{ 
+    text-decoration: none;
+    color: #2a4494;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 204px;
+    
+}
+
+
+
+.inputLoginR {
+    width: 30%;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #fff;
+    margin: 10px 5px;
+    padding: 2px;
+}
+
+
+.inputLoginR input{
+    padding-left: 10px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 1  0px;
+    margin-right: 0px;
+    background: #21295c;
+    border-width: 2px;
+    border-color: #2a4494;
+    border-style: solid;
+    font-size: 15px;
+    color: #fff;
+    
+}
+
+form .registrarse{
+    margin: 60px 53px;
+    display: flex;
+    text-align: center;
+    padding: 90px;
+}
+
+
+/* ACERCA DE NOSOTROS/*/
+
+
+.lema{
+    opacity: 0;
+    transition: opacity 3s;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.mostrar-lema{
+    opacity: 1;
+}
+ .about-us{
+    margin-top: 80px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.about-content{
+    background-color: #013071;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*------------------------------------ADOPCION ESPECIAL-------------------------------/*/
+
+
+
+
+
+.mosaic{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0;
+    gap: 10px 10px;
+}
+
+.mosaic-item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 1%;
+    position: relative;
+    overflow:hidden;
+}
+
+.mosaic-item img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    
+}
+
+.mosaic-item:hover img{
+    transform: scale(1.1);
+}
+
+.mosaic-item .imagen-texto{
+    background-color: rgba(102, 178, 240, 0.7);   
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    display: none;
+    transition: all 0.3s ease;
+    flex-direction: column;
+        
+}
+
+.imagen-texto h3 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.imagen-texto p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.mosaic-item:hover .imagen-texto{
+    display: flex;
+}
+
+/* .mosaic-item.enlarged {
+    flex: 2;
+} */
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Inter";
+    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
+    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
+}

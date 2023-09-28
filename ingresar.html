@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" id="logo" type="image/png" href="imagenes/icono.png">
+
+    <link rel="stylesheet" href="css/header.css"> 
+    <link rel="stylesheet" href="css/index.css">
+    <title>Ingresar</title>    
+</head>
+
+<body>
+    <nav class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/logo1.png" alt="Logo Patitas">
+            </a>    
+        </div>   
+        <ul class="nav-list">
+            <li><a href="adopciones.html">Adopciones</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="refugios.html">Refugios</a></li>
+            <li><a href="adopcionespecial.html">Adopcion Especial</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            <div class="botones-container">
+                <a class="ingresarheader" href="ingresar.html" >Ingresar</a>
+                <a class="registrarseheader" href="registrarse.html" >Registrarse</a> 
+            </div>
+        </ul>
+    </nav>
+    <section style="   padding-top: 140px ;">
+        <form>
+           
+        <h1 style="color: aliceblue;
+        transform: translateY(-50px);
+            ">
+            Ingresar
+        </h1>
+            <div class="usuariocontraseña">
+                <div class="inputLogin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                       <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                    <input type="Text" id="username" placeholder="Nombre" autocomplete="name">
+                </div>
+                <div class="inputLogin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                    </svg>
+                    <input type="password" id="password" placeholder="Contraseña" autocomplete="current-password  ">
+                </div>
+            </div>
+            <a href="#">Olvide la contraseña</a>
+            <button id="loginButton" type="button">Iniciar Sesion</button>
+            <div class="registrarse">
+                <p>No tienes cuenta?</p>
+                <a href="registrarse.html">Registrarse</a>
+            </div> 
+        </form>
+</section>
+
+<script src="js/javascriptlogin.js"></script> 
+
+</body>
+
+</html>
