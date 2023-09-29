@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" id="logo" type="image/png" href="imagenes/icono.png">
 
+
+    <script src="https://kit.fontawesome.com/2296f7e3a6.js" crossorigin="anonymous"></script> 
+
     <title>Registrarse</title>
     
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/registrarse.css">
+
 
     <script src="js/javascriptregistrarse.js"></script> 
 </head>
@@ -38,24 +44,24 @@
         </ul>
     </nav>
 
-    <section style=" padding-top: 130px;">
+    <section>
         <form>
-            <h1 style="color: aliceblue; transform: translateY(-50px);">Registrarse</h1>
+            <h1>Registrarse</h1>
             <div class="usuariocontraseña">
-                <div class="inputLoginR">
-                        <input type="text" id="nombre" class="inputLoginR" placeholder="Nombre" autocomplete="off">
+                <div class="inputLogin">
+                        <input type="text" id="nombre" class="inputLogin" placeholder="Nombre" autocomplete="off">
                     </div>
-                    <div class="inputLoginR">
-                    <input type="text" id="apellido" class="inputLoginR" placeholder="Apellido" autocomplete="off">
+                    <div class="inputLogin">
+                    <input type="text" id="apellido" class="inputLogin" placeholder="Apellido" autocomplete="off">
                     </div>
-                    <div class="inputLoginR">
-                        <input type="email"  id="email" class="inputLoginR" placeholder="Mail" autocomplete="off">
+                    <div class="inputLogin">
+                        <input type="email"  id="email" class="inputLogin" placeholder="Mail" autocomplete="off">
                     </div>
-                    <div class="inputLoginR">
-                        <input type="password" id="contraseña" class="inputLoginR" placeholder="Contraseña" autocomplete="off" >
+                    <div class="inputLogin">
+                        <input type="password" id="contraseña" class="inputLogin" placeholder="Contraseña" autocomplete="off" >
                     </div>    
-                    <div class="inputLoginR">
-                    <input type="password"  id="confirmarcontraseña" class="inputLoginR" placeholder="Confirmar Contraseña" autocomplete="off">
+                    <div class="inputLogin">
+                    <input type="password"  id="confirmarcontraseña" class="inputLogin" placeholder="Confirmar Contraseña" autocomplete="off">
                     </div>
                 </div>
                <button id="registrarseButton"  type="button">Registrarse</button>
@@ -66,6 +72,31 @@
             
         </form>
     </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="logo-container-footer">
+                    <img src="img/logo-texto.png" alt="logo patitas">
+                </div>  
+                <div class="derechos">
+                    <p >&copy; 2023 Patitas En Espera - Todos los derechos reservados</p>
+                </div>
+                <div class="contact-container">
+                    <h4>Contacto</h4>
+                    <p>Correo: patitasenespera@gmail.com</p>
+                    <p>Telefono: (342) 532-1534 </p>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram fa-flip fa-2xl"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter fa-flip fa-2xl"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook fa-flip fa-2xl"></i></a></li>
+                    </ul>
+                </div>       
+            </div>
+        </div> 
+    </footer>
     <script src="js/javascriptregistrarse.js"></script> 
 </body>
 </html>

@@ -7,6 +7,14 @@
 
     <link rel="stylesheet" href="css/header.css"> 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/ingresar.css">
+
+    <script src="https://kit.fontawesome.com/2296f7e3a6.js" crossorigin="anonymous"></script> 
+
+
+    
+
     <title>Ingresar</title>    
 </head>
 
@@ -29,14 +37,9 @@
             </div>
         </ul>
     </nav>
-    <section style="   padding-top: 140px ;">
+    <section>
         <form>
-           
-        <h1 style="color: aliceblue;
-        transform: translateY(-50px);
-            ">
-            Ingresar
-        </h1>
+            <h1>Ingresar</h1>
             <div class="usuariocontraseña">
                 <div class="inputLogin">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -51,14 +54,39 @@
                     <input type="password" id="password" placeholder="Contraseña" autocomplete="current-password  ">
                 </div>
             </div>
-            <a href="#">Olvide la contraseña</a>
+            <a href="#" class="contraseña">Olvide la contraseña</a>
             <button id="loginButton" type="button">Iniciar Sesion</button>
             <div class="registrarse">
                 <p>No tienes cuenta?</p>
-                <a href="registrarse.html">Registrarse</a>
+                <a href="registrarse.html" class="reg">Registrarse</a>
             </div> 
         </form>
 </section>
+
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="logo-container-footer">
+                <img src="img/logo-texto.png" alt="logo patitas">
+            </div>  
+            <div class="derechos">
+                <p >&copy; 2023 Patitas En Espera - Todos los derechos reservados</p>
+            </div>
+            <div class="contact-container">
+                <h4>Contacto</h4>
+                <p>Correo: patitasenespera@gmail.com</p>
+                <p>Telefono: (342) 532-1534 </p>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram fa-flip fa-2xl"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter fa-flip fa-2xl"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook fa-flip fa-2xl"></i></a></li>
+                </ul>
+            </div>       
+        </div>
+    </div> 
+</footer>
 
 <script src="js/javascriptlogin.js"></script> 
 

@@ -16,9 +16,6 @@ h1{
     
 }
 
-
-
-
  .filter-button {
     
     position: fixed;
@@ -95,7 +92,8 @@ h1{
 
 
 
-/*eventos proximos y fechas de eventos proximos*/
+/*------------------------------------EVENTOS--------------------------------------------------------------------------/*/
+
 #eventos {    
     width: 80%;
     margin: 20px auto;
@@ -136,181 +134,16 @@ h1{
 }
 
 
-
-
-/*/*
- ----------------------------------    Login Estilos    ----------------------------------------------
-*/
-
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
- 
-}
-
-form {
-    width: 500px;
-    height: 500px;
-    background: #21295c;
-    color: #fff;
-    padding: 30px 30px;
-    border-radius: 15px;
-}
-
-
-
-.inputLogin {
-    width: 100%;
-    height: 40px;
-    border: 2px solid #2a4494;
-    border-radius: 30px;
-    margin: 20px 0;
-}
-
-/*icono*/
-.inputLogin svg {
-    margin: 10px 5px 10px 15px;
-}
-
-.inputLogin input {
-    position: absolute;
-    margin-top: 7px;
-    background: #21295c;
-    border: 0;
-    font-size: 18px;
-    color: #fff;
-    outline: 0;
-}
-
-/*boton registrarse*/
-form a {
-    text-decoration: none;
-    color: #2a4494;
-    margin: 0 0 20px 10px;
-}
-
-/*boton iniciar sesion*/
-form button {
-    width: 100%;
-    height: 40px;
-    border: 0;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 16px;
-    color: #fff;
-    background: #2a4494;
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-/*no tienes cuenta*/
-form p {
-    margin: 150px 0 20px 90px;
-}
-
-
-form div.usuariocontraseña {
-    display: block;
-    margin-top: -50px;
-}
-
-form div.registrarse{
-    margin: 60px 53px;
-    display: flex;
-    text-align: center;
-    padding: 90px;
-}
-
-form div a{
-    margin-top: 20px;
-}
-
-form div p {
-    margin: 20px  0 25px;
-}
-
-
-
-/*Registro*/
+ /*-------------------------------------------------    Login Estilos    --------------------------------------------------------------*/
 
 
 
 
-
-
-/* boton registrarse */
-form button {
-    width: 100%;
-    height: 40px;
-    border: 0;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 16px;
-    color: #fff;
-    background: #2a4494;
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-/* ya tienes cuenta */
-.cuenta{
-    color: #fff;
-    margin-top: 30px;
-    margin-right: 0px;
-    margin-left: 190px;
-    margin-bottom: 10px;
-}
-
-/* boton iniciar sesion */
-.inicio{ 
-    text-decoration: none;
-    color: #2a4494;
-    margin-top: 10px;
-    margin-right: 60px;
-    margin-left: 204px;
-    
-}
+/*------------------------------------REGISTRARSE-------------------------------/*/
 
 
 
-.inputLoginR {
-    width: 30%;
-    height: 40px;
-    border-radius: 30px;
-    border-color: #fff;
-    margin: 10px 5px;
-    padding: 2px;
-}
-
-
-.inputLoginR input{
-    padding-left: 10px;
-    position: absolute;
-    margin-top: 2px;
-    margin-left: 1  0px;
-    margin-right: 0px;
-    background: #21295c;
-    border-width: 2px;
-    border-color: #2a4494;
-    border-style: solid;
-    font-size: 15px;
-    color: #fff;
-    
-}
-
-form .registrarse{
-    margin: 60px 53px;
-    display: flex;
-    text-align: center;
-    padding: 90px;
-}
-
-
-/* ACERCA DE NOSOTROS/*/
-
+/*----------------------------------------------------SOBRE NOSOTROS-------------------------------------------------------/*/
 
 .lema{
     opacity: 0;
@@ -318,17 +151,16 @@ form .registrarse{
     margin-top: 150px;
     text-align: center;
     font-size: 60px;
-    
 }
 
 .mostrar-lema{
     opacity: 1;
 }
- .about-us{
+ 
+.about-us{
     margin-top: 80px;
     padding: 40px;
     text-align: center;
-
 }
 
 .about-content{
@@ -338,18 +170,7 @@ form .registrarse{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
   
-footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/*------------------------------------ADOPCION ESPECIAL-------------------------------/*/
-
-
-
-
+/*------------------------------------ADOPCION ESPECIAL-----------------------------------------------------------------/*/
 
 .mosaic{
     display: flex;
@@ -411,9 +232,7 @@ footer{
     display: flex;
 }
 
-/* .mosaic-item.enlarged {
-    flex: 2;
-} */
+
 
 
 
