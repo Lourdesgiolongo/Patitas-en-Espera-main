@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
         initialView: 'dayGridMonth',
         events: [
             {
-                title: 'Vacunacion Gratuita',
+                title: 'Vacunación Gratuita',
                 start: '2023-10-20',
                 end: '2023-10-12',
             },
             {
-                title: 'Peluqueria Canina',
+                title: 'Peluquería Canina',
                 start: '2023-11-05',
                 end: '2023-12-07',
             }
@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
         buttonText: {
             today: 'Hoy'
         },
+        fixedWeekCount: false,
+        height: 'auto',
     });
     calendar.render();
 
@@ -29,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
         eventoItem.textContent = event.title + ' - ' + event.start.toLocaleDateString();
         listaEventos.appendChild(eventoItem);
     });
+
+    // document.querySelector('.fc-header-toolbar .fc-toolbar-chunk h2').style.textAlign = 'center';
+
 });
 
-document.querySelector('.fc-header-toolbar .fc-toolbar-chunk h2').style.textAlign = 'center';

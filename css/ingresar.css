@@ -1,9 +1,5 @@
 body{
-    background-color: #181d42;
-}
-
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    background-color: #9bb6e3;
 }
 
 section {
@@ -14,7 +10,6 @@ section {
     padding-top: 130px ;
     padding-bottom: 10px;
 }
-
 
 form {
     width: 450px;
@@ -29,28 +24,36 @@ form {
 h1 {
     color: #fff;
     text-align: center;
-    padding: 50px ;
+    padding: 40px;
 }
 
 .inputLogin {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     border: 2px solid #2a4494;
     border-radius: 30px;
     margin: 10px 0px;
+    align-items: center;
+    
 }
 
 /*icono*/
 .inputLogin svg {
+    margin: 0 10px;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
     margin: 10px 5px 10px 15px;
 }
 
 .inputLogin input {
-    position: absolute;
-    margin-top: 7px;
-    background: #21295c;
-    border: 0;
+    border: none;
+    background: transparent;    
     font-size: 15px;
     color: #fff;
+    width: 100%;
+    outline: none;
 }
 
 /*boton registrarse y */
@@ -95,5 +98,14 @@ form .reg {
     text-align: right;
     padding-top: 15px;
     padding-left: 15px;
-    
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
+    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
 }

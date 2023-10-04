@@ -1,0 +1,137 @@
+body{
+    background-image: url(/img/sobrenosotros.png);
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 16% ;
+    background-attachment:local;
+    background-color: #9bb6e3;
+    font-family: "inter";
+}
+
+    
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+    color: #013071;
+    position: relative;
+}
+
+
+.lema{
+    opacity: 0;
+    transition: opacity 5s;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.mostrar-lema{
+    opacity: 1;
+}
+ 
+.about-us{
+    margin-top: 600px;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-content{
+    background-color: #013071;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3{
+    color: #013071;
+    font-family: sans-serif;
+    font-size: 90px;
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 40%;
+    background-color: #7f97c0;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+fieldset{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+
+input,textarea{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+    
+}
+
+.campo{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.campo label{
+    font-family: sans-serif;
+    width: 200px;
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
+.campo input[type="text"], .campo input[type="mail"], .campo textarea{
+    align-items: auto;
+    padding: 0.3em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+} 
+
+.campo input:focus, .campo textarea:focus{
+    background: #e0e0f8;
+}
+
+.campo textarea{
+    align-items: auto;
+    padding: 0.3em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+    resize: none;
+}
+
+button{
+    text-align: center;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+

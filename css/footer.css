@@ -1,63 +1,79 @@
-.footer{
-    background-color: #013071;
-    color: rgba(245, 245, 245, 0.901);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 150px;
-}
+    .footer{
+        background-color: #21295c;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        color: rgba(245, 245, 245, 0.901);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 140px;
+        border-radius: 10px;
+    }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 
 
-.logo-container-footer img{
-    max-height: 200px;
-    width: auto;
-}
+    .logo-container-footer img{
+        max-height: 200px;
+        width: auto;
+    }
 
-.logo-container-footer {
-    display: flex;
-    align-items: center;
-}
+    .logo-container-footer {
+        display: flex;
+        align-items: center;
+    }
 
-.social-icons ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-self: flex-end;
-}
+    .social-icons ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-self: flex-end;
+    }
 
-.social-icons li{
-    margin: 0 10px;
-}
+    .social-icons li{
+        margin: 0 10px;
+    }
 
-.social-icons a{
-    text-decoration: none;
-    justify-content: right;
-    color: rgba(245, 245, 245, 0.901);
-    font-size: 20px;
-}
+    .social-icons a{
+        text-decoration: none;
+        justify-content: right;
+        color: rgba(245, 245, 245, 0.901);
+        font-size: 20px;
+    }
 
-.contact-container{
-    align-items: center;
-}
+    .contact-container{
+        align-items: center;
+    }
 
-.contact-container h4{
-    text-align: center;
-}
+    .contact-container h4{
+        text-align: center;
+    }
 
-.contact-container p{
-    text-align: center;
-}
+    .contact-container p{
+        text-align: center;
+    }
 
-.derechos {
-    text-align: center;
-}
+    .derechos {
+        text-align: center;
+    }
+
+
 
     
+
+    @font-face {
+        font-family: "Inter";
+        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
+        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
+    }
+        

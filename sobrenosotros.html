@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" id="logo" type="image/png" href="imagenes/icono.png">
@@ -10,8 +12,9 @@
     <title>Sobre Nosotros</title>
     
     <link rel="stylesheet" href="css/header.css"> 
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sobrenosotros.css"> 
+
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -28,7 +31,7 @@
             <li><a href="adopciones.html">Adopciones</a></li>
             <li><a href="eventos.html">Eventos</a></li>
             <li><a href="refugios.html">Refugios</a></li>
-            <li><a href="adopcionespecial.html">Adopcion Especial</a></li>
+            <li><a href="adopcionespecial.html">Adopción Especial</a></li>
             <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
             
             <div class="botones-container">
@@ -39,7 +42,7 @@
         </ul>
     </nav>
 
-    <h1 class="lema" id="lema">La organizacion vence al tiempo</h1>
+    <h1 class="lema" id="lema">La organización vence al tiempo</h1>
     <section class="about-us">
         <div class="about-content">
             <h2>Quienes Somos</h2>
@@ -47,16 +50,34 @@
         </div>
     </section>
 
-    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat. Nulla repellendus saepe at quas nam perspiciatis expedita dolores, amet earum corrupti iure non hic. Facilis aperiam porro sint sequi.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui cumque iste sit natus nisi, exercitationem quos laboriosam tempora temporibus, alias suscipit quae, adipisci accusantium? Illum molestias consequuntur quae! Illum!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione voluptate voluptates veritatis distinctio molestias, autem doloremque earum perferendis necessitatibus. Illum similique saepe ipsam dicta totam, esse itaque odit quaerat.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolor quibusdam aperiam suscipit, blanditiis voluptates rerum architecto alias ipsam, sunt facere? Libero ratione nemo quibusdam in itaque doloribus! Facere, accusamus.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam error magnam veniam culpa, illum, doloribus recusandae mollitia doloremque eaque ullam neque, earum harum eos at tenetur nobis quasi nostrum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error cumque, dolores corrupti obcaecati et dolore vero illum neque unde voluptatum? Nam ad libero facere veniam nisi possimus perspiciatis quaerat!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempora praesentium et. Placeat obcaecati ducimus aperiam quis illum eos iusto tempore in voluptatum. Corporis tenetur sint incidunt dignissimos, dolor possimus!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam consequuntur earum, nam blanditiis laborum perferendis. Nisi est qui saepe quidem sint quo sequi suscipit, pariatur veritatis! Repellendus, praesentium inventore!
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum harum at enim minus exercitationem molestiae officia nihil. Consectetur, corporis dolorem. Ullam rem necessitatibus eius repudiandae totam esse dolor voluptatem officiis.
-    </h3>
+    <h3>HAZNOS<br> UNA<br> PREGUNTA</h3>
+
+    <form>
+        <fieldset class="group">
+            <div class="campo">
+                <label for="nombre"><strong>Nombre</strong></label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="apellido"><strong>Apellido</strong></label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="mail"><strong>Mail</strong></label>
+            <input type="mail" name="mail" id="mail" required>
+        </div>
+
+        <div class="campo">
+            <label for="comentario"><strong>Deja aquí tu comentario</strong></label>
+            <textarea rows="6" style="width: 26em" id="comentario" required></textarea>
+        </div>
+
+        <button class="boton" type="submit" onsubmit="">Enviar</button>
+    </form>
+
     <footer>
         <div class="footer">
             <div class="container">
@@ -69,7 +90,7 @@
                 <div class="contact-container">
                     <h4>Contacto</h4>
                     <p>Correo: patitasenespera@gmail.com</p>
-                    <p>Telefono: (342) 532-1534 </p>
+                    <p>Teléfono: (342) 532-1534 </p>
                 </div>
                 <div class="social-icons">
                     <ul>
