@@ -12,12 +12,7 @@ h1{
     position: relative;
 }
 
-h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(183, 6, 6);
-}
+
 
  .filter-button {
     position: fixed;

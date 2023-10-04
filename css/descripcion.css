@@ -4,22 +4,21 @@ body{
 }
 
 section{
-    background-color: rgb(255, 242, 218);
+    background-color: rgb(255, 249, 237);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    max-width: 80%;
+    max-width: 90%;
     margin: 160px;
-    margin-bottom: 70px;
-    max-height: 40%;
+    margin-bottom: 60px;
+    max-height: 50%;
     border-radius: 10px;
 }
 
 article{
     width: 80%;
     text-align:center;
-    
 }
 
 #carrusel{
