@@ -4,7 +4,7 @@ body{
 }
 
 section{
-    background-color: rgb(255, 249, 237);
+    background-color: rgb(254, 255, 237);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,14 +50,16 @@ article{
 
 article h2{
    font-size: 20px;
+   font-family:Impact;
 }
 
 article h3, h5{
     font-size: 17px;
+    font-family: 'Times New Roman';
 }
 
 .descripción{
-    background-color: whitesmoke;
+    background-color: #a1b7de;
     width: 50%;
     display: flex;
     margin-right: 100px;
@@ -81,6 +83,7 @@ article h3, h5{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contactar button:hover {
