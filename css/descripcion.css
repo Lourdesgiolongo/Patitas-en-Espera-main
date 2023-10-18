@@ -1,12 +1,16 @@
 /* Cambiar el color del fondo de la barra de desplazamiento */
 ::-webkit-scrollbar {
     background-color: #9bb6e3;
-  }
+}
   
-  /* Cambiar el color de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
+/* Cambiar el color de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
     background-color: #013071;
-  }
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #9bb6e3;
@@ -18,11 +22,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    max-width: 90%;
-    margin: 160px;
+    padding: 20px;
+    max-width: 95%;
+    margin: 140px;
     margin-bottom: 60px;
-    max-height: 50%;
+    max-height: 60%;
     border-radius: 10px;
 }
 
@@ -59,13 +63,12 @@ article{
 }
 
 article h2{
-   font-size: 20px;
-   font-family:Impact;
+    font-size: 20px;
 }
 
 article h3, h5{
+    text-align: justify;
     font-size: 17px;
-    font-family: 'Times New Roman';
 }
 
 .descripción{
@@ -77,6 +80,7 @@ article h3, h5{
     text-align: center;
     align-items: center;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .contactar{

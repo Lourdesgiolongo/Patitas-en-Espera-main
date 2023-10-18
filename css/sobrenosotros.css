@@ -3,12 +3,12 @@
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: #144a96;
+    background-color: #21295c;
 }
 
 html{
     scroll-behavior: smooth;
-}
+}   
 
 body{
     background-image: url(/Patitas-en-Espera-main/img/sobrenosotros.png);
