@@ -5,7 +5,6 @@ $(document).ready(function() {
         var scroll = $(window).scrollTop();
 
         var lemaTop = lema.offset().top;
-        // var lemaHeight = lema.outerHeight();
 
         if (scroll + windowHeight > lemaTop) {
             lema.addClass('mostrar-lema');
@@ -15,3 +14,4 @@ $(document).ready(function() {
     mostrarLema();
     $(window).scroll(mostrarLema);
 });
+

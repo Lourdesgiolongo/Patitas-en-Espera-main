@@ -1,3 +1,13 @@
+/* Cambiar el color del fondo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    background-color: #9bb6e3;
+  }
+  
+  /* Cambiar el color de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #013071;
+  }
+
 body{
     background-color: #9bb6e3;
     font-family: "inter";

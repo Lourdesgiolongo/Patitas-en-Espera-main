@@ -1,5 +1,17 @@
+::-webkit-scrollbar {
+    background-color: #9bb6e3;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #144a96;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-image: url(/img/sobrenosotros.png);
+    background-image: url(/Patitas-en-Espera-main/img/sobrenosotros.png);
     background-size:70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +41,7 @@ h1{
 }
 
 .mostrar-lema{
-    opacity: 1;
+    opacity: 2;
 }
  
 .about-us{

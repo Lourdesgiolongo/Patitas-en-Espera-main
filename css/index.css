@@ -1,5 +1,16 @@
-body{
+::-webkit-scrollbar {
     background-color: #9bb6e3;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #013071;
+}
+  
+*{
+    box-sizing: border-box  ;
+}
+body{
+    background-color: #f5f7f9;
     font-family: "inter";
 }
 
@@ -11,8 +22,6 @@ h1{
     color: #013071;
     position: relative;
 }
-
-
 
  .filter-button {
     position: fixed;
