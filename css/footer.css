@@ -64,6 +64,20 @@
     }
 
 
+    @media screen and (max-width: 768px) {
+        .logo-container-footer img {
+          max-height: 100px;
+        }
+      
+        .social-icons {
+          justify-content: center;
+        }
+      
+        .derechos {
+          text-align: justify;
+        }
+      }
+
 
     
 

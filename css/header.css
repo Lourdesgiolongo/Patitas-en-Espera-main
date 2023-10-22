@@ -1,3 +1,9 @@
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 .header{
     position: fixed;
     top: 15px;
@@ -73,20 +79,74 @@
     height: auto;
 }
 
+.botones-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 10px;
+}
+
 .botones-container a.ingresarheader,
 .botones-container a.registrarseheader{
     margin: 0 10px;
     padding: 15px 30px;
-    align-items: flex-start;
     color: white;
     background-color: #013071;
-    width: 152.73px;
-    height: 61.09px;
-    top: 70.23px;
-    left: 1615.75px;
+    width: 80px;
+    height: 30px;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+      width: 100%;
+      height: auto;
+    }
+  
+    .logo-container img {
+      max-height: 50px;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-list li {
+      margin: 0 0 10px;
+    }
+
+    .botones-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 0 10px;
+      }
+    
+      .botones-container a.ingresarheader,
+      .botones-container a.registrarseheader {
+        align-items: center;
+        width: 80px;
+        height: 30px;
+      }
+  }
+
+  @media screen and (min-width: 768px) {
+    .botones-container a.ingresarheader,
+    .botones-container a.registrarseheader {
+      align-items: center;
+      width: 80px;
+      height: 30px;
+    }
+  }
+
+
+ 
+
+  
 @font-face {
     font-family: "Inter";
     src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
