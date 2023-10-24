@@ -6,11 +6,12 @@
     background-color: #21295c;
 }
 
+html{
+    scroll-behavior: smooth;
+}   
 
 body{
     background-color: #9bb6e3;
-    font-family: "inter";
-
 }
 
 h1{
@@ -20,8 +21,8 @@ h1{
     padding-top: 130px;
     color: #013071;
     position: relative;
-
 }
+
 
  .filter-button {
     position: fixed;
@@ -160,38 +161,6 @@ h1{
 
 
 
-/*----------------------------------------------------SOBRE NOSOTROS-------------------------------------------------------/*/
-
-
-
-.lema{
-    opacity: 0;
-    transition: opacity 5s;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 60px;
-}
-
-.mostrar-lema{
-    opacity: 1;
-}
- 
-.about-us{
-    margin-top: 80px;
-    padding: 40px;
-    text-align: center;
-}
-
-.about-content{
-    background-color: #013071;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-  
-
-
-
 /*------------------------------------ADOPCIÓN ESPECIAL-----------------------------------------------------------------/*/
 
 .mosaic{
@@ -253,17 +222,3 @@ h1{
     border-radius: 5px;
 }
 
-
-
-
-
-
-    @font-face {
-        font-family: "Inter";
-        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
-        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
-    }

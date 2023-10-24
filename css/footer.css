@@ -1,12 +1,12 @@
       .footer{
         background-color: #21295c;
-        margin-top: 20px;
+        margin-top: 15px;
         padding-bottom: 15px;
         color: rgba(245, 245, 245, 0.901);
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         height: 140px;
         border-radius: 10px;
     }
@@ -27,6 +27,7 @@
     .logo-container-footer {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
     }
 
     .social-icons ul{
@@ -45,22 +46,36 @@
         justify-content: right;
         color: rgba(245, 245, 245, 0.901);
         font-size: 20px;
+        
     }
 
     .contact-container{
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        text-align: center;
+        margin-top: 20px;
+
     }
 
+    /*Contacto*/
     .contact-container h4{
         text-align: center;
+        font-size: 16px;
     }
 
+    /*correo, teléfono*/
     .contact-container p{
         text-align: center;
+        font-size: 14px;
     }
 
+    /*derechos*/
     .derechos {
         text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
     }
 
 
@@ -78,16 +93,3 @@
         }
       }
 
-
-    
-
-    @font-face {
-        font-family: "Inter";
-        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
-        src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
-        url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
-    }
-        

@@ -10,14 +10,13 @@ section {
     align-items: center;
     padding-top: 130px;
     padding-bottom: 10px;
-    
 }
 
 form {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background: #21295c;
-    padding: 40px 40px;
+    padding: 40px 20px;
     border-radius: 15px;
 }
 
@@ -85,14 +84,4 @@ form .registrarse{
     display: flex;
     text-align: center;
     padding: 90px;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot");
-    src: url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/120e0ce82c6e82ef6e31c808ae2ebf22.svg#Inter")format("svg");
 }

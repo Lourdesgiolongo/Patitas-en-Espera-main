@@ -18,7 +18,7 @@ body{
     background-position-y: 16% ;
     background-attachment:local;
     background-color: #9bb6e3;
-    font-family: "inter";
+
 }
 
     
@@ -41,7 +41,7 @@ h1{
 }
 
 .mostrar-lema{
-    opacity: 2;
+    opacity: 1;
 }
  
 .about-us{
