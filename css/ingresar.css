@@ -16,8 +16,13 @@ form {
     border-radius: 15px;
 }
 
+form button:hover {
+    background-color: #e22727c7;
+}
+
 /*texto ingresar*/
 h1 {
+    font-size: 25px;
     color: #fff;
     text-align: center;
     padding: 40px;
@@ -89,3 +94,18 @@ form .reg {
     color: #fff;
 }
 
+
+/*DISEÑO WEB ADAPTABLE*/
+
+
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    section {
+        padding-top: 150px ;
+    }
+    
+    form {
+        width: 500px;
+        height: 500px;
+        padding: 20px 15px;    
+    }
+}

@@ -11,14 +11,13 @@ html{
 }   
 
 body{
-    background-image: url(/Patitas-en-Espera-main/img/sobrenosotros.png);
+    background-image: url(/img/sobrenosotros.png); 
     background-size:70%;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 16% ;
     background-attachment:local;
     background-color: #9bb6e3;
-
 }
 
     
@@ -31,7 +30,7 @@ h1{
     position: relative;
 }
 
-
+/*la organizacion vence al tiempo*/
 .lema{
     opacity: 0;
     transition: opacity 5s;
@@ -51,20 +50,28 @@ h1{
 }
 
 .about-content{
-    background-color: #013071;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* h2: quienes somos, p: texto*/
+.about-content h3, .about-content p{
+    color: #21295c;
+}
+
+/*haznos una pregunta*/
 h3{
     color: #013071;
     font-family: sans-serif;
     font-size: 90px;
+    font-style: bold;
     float: left;
     width: 50%;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-bottom: 10px;
+    margin-top: 90px;
 }
 
 form{
@@ -72,12 +79,12 @@ form{
     flex-direction: column;
     align-items:center;
     width: 40%;
+    height: 500px;
     background-color: #7f97c0;
     border-radius: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 
 fieldset{
     border:0;
@@ -94,7 +101,7 @@ input,textarea{
 }
 
 .campo{
-    margin-bottom: 1em;
+    margin-bottom: 1px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -105,7 +112,7 @@ input,textarea{
 .campo label{
     font-family: sans-serif;
     width: 200px;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
     color: #59429d;
     display: block;
     text-align: center;
@@ -115,24 +122,28 @@ input,textarea{
 
 .campo input[type="text"], .campo input[type="mail"], .campo textarea{
     align-items: auto;
-    padding: 0.3em;
+    padding: 0.1em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     margin: 10px;
-    width: 250px;
+    
 } 
+.campo input[type="text"], .campo input[type="mail"]{
+    height: 30px;
+    width: 400px;
+}
 
 .campo input:focus, .campo textarea:focus{
     background: #e0e0f8;
 }
 
-.campo textarea{
-    align-items: auto;
+textarea{
+    height: 100px;
     padding: 0.3em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     margin: 10px;
-    width: 250px;
+    width: 30em;
     resize: none;
 }
 
@@ -146,4 +157,42 @@ button{
     cursor: pointer;
     margin: 10px;
 }
+
+/*DISEÑO WEB ADAPTABLE*/
+
+@media screen and (max-width: 1314px){
+    .campo input[type="text"], .campo input[type="mail"]{
+        height: 22px;
+        width: 250px;
+    }
+
+    textarea{
+        height: 80px;
+        width: 20em;
+    }
+
+    form{
+        width: 40%;
+        background-color: #7f97c0;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3{
+        font-size: 80px;
+        margin-left: 75px;
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    .about-us{
+        margin-top: 700px;
+        padding: 60px;
+        text-align: center;
+    }
+}
+
 

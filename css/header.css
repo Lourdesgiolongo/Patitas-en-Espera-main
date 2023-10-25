@@ -8,7 +8,7 @@
     align-items: center;
     background-color: rgba(140, 165, 211, 0.7); 
     height: 111.558px;
-    flex-shrink: 0;
+    flex-shrink: 0; 
     border-radius: 50px;
     padding: 10px 20px;
     max-width: 100%;
@@ -26,7 +26,6 @@
     text-align: center;
 }
 .logo-container img{
-  
     max-width: 100%;
     max-height: 100px;
 }
@@ -54,15 +53,11 @@
     margin: 0 10px;
 }
 
-.nav-list a{
+.nav-list a{ 
     margin: 0 10px;
+    font-size: 18px;
     text-decoration: none;
     color: #013071;
-    font-family:sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
     text-align: center;
 }
 
@@ -75,7 +70,7 @@
 .botones-container a.ingresarheader,
 .botones-container a.registrarseheader{
     margin: 0 10px;
-    padding: 10px 20px;
+    padding: 10px 50px;
     color: white;
     background-color: #013071;
     border-radius: 50px;
@@ -95,144 +90,52 @@ ul{
   list-style: disc;
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-      width: 100%;
-      height: 80px;
-      display: grid;
-      grid-template-areas: "logo" "nav" "buttons";
-      grid-template-rows: auto auto auto;
-      justify-content: center;
-    }
 
-    .logo-container{
-      /* grid-area: "logo";
-      display: flex;
-      align-items: center; */
-      justify-content: flex-start;
-    }
-  
-    .logo-container img {
-      /* max-height: 50px;
-      max-width: 100%; */
-      max-height: 40px;
-    }
-  
-    .nav-list {
-      grid-area: nav;
-      list-style: none;
-      display: flex;
-      flex-grow: 1;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nav-list li {
-      margin: 0 0 10px;
-      font-size: 14px;
-    }
 
-    .botones-container {
-      flex-direction: row;
-      
-      }
-    
-      .botones-container a.ingresarheader,
-      .botones-container a.registrarseheader {
-        width: 70px;
-        height: 30px;
-        font-size: 12px;
-      }
-  }
+/*DISEÑO WEB ADAPTABLE*/
 
-@media screen and (min-width: 800px) {
-  .botones-container a.ingresarheader,
-  .botones-container a.registrarseheader {
-    align-items: center;
-    width: 80px;
-    height: 30px;
-    font-size: 12px;
+@media screen and (max-width: 1340px){
+  .nav-list a{ 
+    margin: 0 1px;
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 1030px) {
-  .header {
-      /* width: 100%;
-      height: auto;
-      display: grid;
-      grid-template-areas: "logo nav" "buttons";
-      grid-template-rows: auto auto;
-      justify-content: center; */
-    height: auto;
-    flex-direction: row;
-    padding: 10px;
-  }
   
-  .logo-container {
-      /* grid-area: logo; */
-    max-width: 100px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    flex: 1;
-      /* margin-bottom: 10px; */
-  }
-  
-  .logo-container img {
-    max-height: 50px;
-      /* max-width: 100%; */
-    max-width: auto;
-  }
-  
-  .nav-list {
-      /* grid-area: nav;
-      list-style: none;
-      display: flex;
-      flex-grow: 1;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-      flex-direction: column;
-      align-items: center; */
-      flex-direction: row;
-      align-items: center;
-      flex: 1;
-    }
-
-    .nav-list ul{
-      display: inline-block;
-    }
-  
-    .nav-list li {
-      margin:  0 5px;
-      font-size: 10px;
-    }
-
-    .nav-list a{
-      margin: 0 12px;
-      font-size: 12px;
-    }
-  
-    .botones-container {
-      /* grid-area: buttons;
-      justify-content: center; */
-      display: flex;
-      flex: 1;
-      justify-content: flex-end;
-    }
-  
-    .botones-container a.ingresarheader,
-    .botones-container a.registrarseheader {
-      margin: 0 20px ;
-      padding: 5px ;
-      font-size: 10px;
-      /* width: 70px;
-      height: 30px;
-      font-size: 12px; */
-    }
+@media screen and (max-width: 1132px){
+  .logo-container img{
+    width: 100%;
+    height: 80px;
   }
 
+  .nav-list a{ 
+    margin: 0 0px;
+    font-size: 13px;
+    
+  }
+}
 
+@media screen and (max-width: 968px){
+  .header{
+    height: 80px;
+  }
+
+  .logo-container img{
+    width: 100%;
+    height: 40px;
+  }
+  .nav-list a{ 
+    margin: 0 0px;
+    font-size: 11px;
+  }
+
+  .botones-container{
+    height: 30px;
+    width: auto;
+  }
+  .botones-container a.ingresarheader,
+  .botones-container a.registrarseheader{
+    padding: 18px 10px;
+    font-size: 12px;
+  }
+}

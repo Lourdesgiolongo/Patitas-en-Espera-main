@@ -1,6 +1,6 @@
 body{
     background-color: #9bb6e3;
-    overflow-x:hidden ;
+    overflow-x: hidden;
 }
 
 section {
@@ -8,16 +8,16 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 130px;
-    padding-bottom: 10px;
+    padding-top: 150px;
 }
 
 form {
-    width: 450px;
-    height: 450px;
+    width: 480px;
+    height: 480px;
     background: #21295c;
     padding: 40px 20px;
     border-radius: 15px;
+    position: relative;
 }
 
 /* botón registrarse */
@@ -31,23 +31,32 @@ form button {
     color: #fff;
     background: #2a4494;
     margin-top: auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #e22727c7;
 }
 
 /* texto registrarse*/
 h1{
-    padding-top: 5px;
+    font-size: 25px;
+    padding-top: 0px;
+    margin-bottom: 20px;
     text-align: center;
     color: #fff;
 }
 
 /* ya tienes cuenta */
 .cuenta{
+    margin-top: 15px;
     color: #fff;
     text-align: center;
 }
 
 /* botón iniciar sesión */
 .inicio{ 
+    margin-bottom: 10px;
     text-decoration: none;
     color: #2a4494;
     display: block;
@@ -65,9 +74,11 @@ h1{
     border: 2px solid #2a4494;
     border-radius: 30px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .inputLogin input{
+    width: 90%;
     border: none;
     padding-left: 20px;
     position: absolute;
