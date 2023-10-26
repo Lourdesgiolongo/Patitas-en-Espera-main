@@ -1,83 +1,66 @@
-  const mosaicItems = document.querySelectorAll('.mosaic-item');
-
-  mosaicItems.forEach((item) => {
-      const imagenTexto = item.querySelector('.imagen-texto');
-
-      item.addEventListener('mouseover', () => {
-          item.classList.add('enlarged');
-          imagenTexto.style.display ='block';
-      });
-
-      item.addEventListener('mouseout', () => {
-          item.classList.remove('enlarged');
-          imagenTexto.style.display = 'none';
-      });
-  });
-
-
   const datosImagenes = [
       {
         nombre: 'Lucas',
         ubicacion: 'Santa Fe',
-        imagenSrc: 'img/patitas1.jpg',
+        imagenSrc: 'img/gatoespec1.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Gaston',
         ubicacion: 'Santa Fe',
-        imagenSrc: 'img/patitas2.jpg',
+        imagenSrc: 'img/perroespc1.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Violeta',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas3.jpg',
+        imagenSrc: 'img/gatoespec2.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Bruma',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas4.jpg',
+        imagenSrc: 'img/perroespec2.jpg',
       },
       {
-        nombre: 'a',
-        ubicacion: '',
-        imagenSrc: 'img/patitas5.jpg',
+        nombre: 'Tomi',
+        ubicacion: 'Santa Fe',
+        imagenSrc: 'img/gatoespec3.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Manchas',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas6.jpg',
+        imagenSrc: 'img/perroespec3.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Bigotes',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas8.jpg',
+        imagenSrc: 'img/gatoespec4.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Leon',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas9.jpg',
+        imagenSrc: 'img/perroespec4.jpg',
       },
       {
-        nombre: 'a',
+        nombre: 'Mantecol',
         ubicacion: 'Rosario',
-        imagenSrc: 'img/patitas10.jpg',
+        imagenSrc: 'img/perroespec5.jpg',
       },
       {
-        nombre: '',
-        ubicacion: 'Rosario',
+        nombre: 'Ziggy',
+        ubicacion: 'Santa Fe',
         imagenSrc: 'img/patitas11.jpg',
       },
       {
-        nombre: 'l',
+        nombre: 'Milo',
         ubicacion: 'Rosario',
         imagenSrc: 'img/patitas12.jpg',
       },
       {
-        nombre: 'l',
+        nombre: 'Budín',
         ubicacion: 'Rosario',
         imagenSrc: 'img/patitas13.jpg',
       },
       {
-        nombre: 'L',
+        nombre: 'Titan',
         ubicacion: 'Rosario',
         imagenSrc: 'img/patitas14.jpg',
       },
