@@ -30,7 +30,7 @@ document.getElementById("registrarseButton").addEventListener("click", function(
         };
 
         // Realizar una solicitud POST a tu archivo PHP
-        fetch('/php/registro_usuario_be.php', {
+        fetch('http://localhost/back-Patitas/registro_usuario.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
