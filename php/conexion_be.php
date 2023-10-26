@@ -1,5 +1,5 @@
 <?php
-    $conexion = mysqli_connect("localhost", "root", "", "login_register_db");
+    $conexion = mysqli_connect("localhost", "root", "", "patitasEnEspera");
 
     // Verifica si la conexión fue exitosa
     if (!$conexion) {

@@ -1,20 +1,23 @@
 <?php
 
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
     include 'conexion_be.php';
 
-    $nombre_completo = $_POST['nombre_completo'];
+    $nombre = $_POST['nombre'];
+    $apellido = $_POST['apellido'];
     $correo = $_POST['correo'];
-    $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
     //encriptamiento de pw
     $contrasena = hash('sha512', $contrasena);
 
-    $query = "INSERT INTO usuarios(nombre_completo, correo, username, contrasena)
-               VALUES ('$nombre_completo', '$correo', '$usuario', '$contrasena')";
+    $query = "INSERT INTO usuario(nombre, apellido, correo, contrasena)
+               VALUES ('$nombre','$apellido', '$correo', '$contrasena')";
 
 
     //verificacion de correo
-    $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo='$correo' ");
+    $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuario WHERE mail='$correo' ");
     
 
     if(mysqli_num_rows($verificar_correo) > 0){
@@ -27,19 +30,19 @@
 
         exit();
     }
-    //verificacion de user
-    $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE username='$usuario' ");
+    // //verificacion de user
+    // $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE username='$usuario' ");
     
-    if(mysqli_num_rows($verificar_usuario) > 0){
-        echo '
-        <script>
-                alert("Este usuario ya está en uso, intente otro");
-                window.location = "../registrarse.php"
-        </script>
-        ';
+    // if(mysqli_num_rows($verificar_usuario) > 0){
+    //     echo '
+    //     <script>
+    //             alert("Este usuario ya está en uso, intente otro");
+    //             window.location = "../registrarse.php"
+    //     </script>
+    //     ';
 
-        exit();
-    }
+    //     exit();
+    // }
 
 
     $ejecutar = mysqli_query($conexion, $query);
