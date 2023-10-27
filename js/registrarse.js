@@ -25,8 +25,8 @@ document.getElementById("registrarseButton").addEventListener("click", function(
         const datos = {
             nombre: nombre,
             apellido: apellido,
-            correo: email,
-            contrasena: password1
+            mail: email,
+            contraseña: password1
         };
 
         // Realizar una solicitud POST a tu archivo PHP

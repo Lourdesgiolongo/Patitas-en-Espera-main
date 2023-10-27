@@ -111,7 +111,20 @@
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum voluptas quo commodi, distinctio minima. Voluptas libero quo ratione quia esse consequuntur aspernatur, beatae, inventore minus, recusandae omnis dolore tempora.</h5>
                 </article>
                 <div class="contactar">
-                    <button type="button">Contactar para adopción</button>
+                    <div class="contactar">
+                        <button type="button" id="botonContactar">Contactar para adopción</button>
+            
+                      
+                      <script>
+                        // Obtén una referencia al botón
+                        var boton = document.getElementById("botonContactar");
+                      
+                        // Agrega un evento click al botón que redirigirá a la URL de WhatsApp cuando se haga clic
+                        boton.addEventListener("click", function() {
+                          window.location.href = "https://wa.me/543425151123";
+                        });
+                      </script>
+                    
                 </div>
             </div>
             
